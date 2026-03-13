@@ -25,9 +25,41 @@ Este conteúdo foi pensado principalmente para:
 - Estudantes de áreas tecnológicas iniciando em programação.
 - Interessados em utilizar Python como porta de entrada para outras áreas da computação.
 
-Não é necessário conhecimento prévio em programação.
+## Pré-requisitos
 
----
+Este curso foi pensado para iniciantes, portanto **não é necessário conhecimento prévio em programação**. Ainda assim, alguns requisitos básicos são recomendados para acompanhar as atividades.
+
+### Conhecimentos recomendados
+
+- Noções básicas de uso de computador
+- Saber utilizar um navegador de internet
+- Familiaridade básica com edição de arquivos e pastas
+
+### Ferramentas necessárias
+
+Para realizar os exercícios do curso, é necessário possuir pelo menos uma das seguintes opções:
+
+**Opção 1 — Google Colab (recomendado para iniciantes)**
+
+- Conta Google
+- Navegador atualizado (Chrome, Edge, Firefox, etc.)
+
+**Opção 2 — Ambiente local**
+
+- Python 3.8 ou superior instalado
+- Um editor de código ou IDE, como **VS Code**
+
+Para instalar o **Python**, faça o download no site oficial:  
+https://www.python.org/downloads/
+
+Caso utilize VS Code, é recomendado instalar as extensões de Python:
+
+```bash
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+```
+
+Depois siga o passo 2 da seção '**Como utilizar o repositório**' para instalar as dependências
 
 ## Conteúdos Abordados
 
