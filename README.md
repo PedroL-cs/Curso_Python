@@ -1,133 +1,51 @@
-# Introdução à Programação com Python
+# Curso de Python Aplicado à Ciência de Dados
 
-Este repositório reúne materiais de apoio para um **curso introdutório de Python**, voltado para quem está começando na programação. A proposta é apresentar os principais conceitos da linguagem de forma progressiva, combinando explicações teóricas com exemplos práticos e exercícios.
+Bem-vindo ao repositório do curso de **Python para Análise de Dados**. Este projeto foi desenvolvido como parte de uma disciplina universitária, com o objetivo de ensinar os fundamentos da linguagem aplicados à manipulação, tratamento e visualização de dados.
 
-O conteúdo foi organizado para permitir que qualquer pessoa, mesmo sem experiência prévia em programação, consiga acompanhar o aprendizado passo a passo.
+## Objetivos do Curso
 
----
-
-## Propósito do Repositório
-
-O objetivo deste material é:
-
-- Introduzir os conceitos fundamentais de programação utilizando Python.
-- Desenvolver raciocínio lógico e resolução de problemas.
-- Apresentar ferramentas básicas usadas no desenvolvimento em Python.
-- Proporcionar atividades práticas que reforcem o aprendizado.
+* Dominar a sintaxe básica de Python voltada para dados.
+* Manipular datasets reais utilizando bibliotecas como **Pandas** e **NumPy**.
+* Criar visualizações de dados informativas com **Matplotlib** e **Seaborn**.
+* Desenvolver o seu pensamento lógico, crítico e analítico.
+* Te familiarizar com algumas das principais tecnologias utilizadas no mercado e na academia.
 
 ---
 
-## Para quem é este material
+## Estrutura do Repositório
 
-Este conteúdo foi pensado principalmente para:
+O curso está dividido em módulos lógicos para facilitar o aprendizado progressivo:
 
-- Pessoas que nunca programaram e querem aprender Python.
-- Estudantes de áreas tecnológicas iniciando em programação.
-- Interessados em utilizar Python como porta de entrada para outras áreas da computação.
+* **`modulo1/`**: Fundamentos de Python, tipos de dados, estruturas de repetição e introdução ao Pandas.
+* `dataset_desempenho_escolar.csv`: Dados para prática inicial.
+* `modulo1_fundamentos_python.ipynb`: Notebook com a teoria e exemplos.
+* `exercicios_modulo1.ipynb`: Desafios práticos do módulo.
 
-## Pré-requisitos
+* **`modulo2/`**: (Em desenvolvimento) Manipulação de Dados.
+* **`modulo3/`**: (Em desenvolvimento) Visualização de Dados.
+* **`modulo4/`**: (Em desenvolvimento) Análise Exploratório de Dados (EDA).
+* **`projeto-final/`**: Diretório reservado para o trabalho de conclusão da disciplina.
 
-Este curso foi pensado para iniciantes, portanto **não é necessário conhecimento prévio em programação**. Ainda assim, alguns requisitos básicos são recomendados para acompanhar as atividades.
+## Pré-requisitos do curso
 
-### Conhecimentos recomendados
+Leia o conteúdo do arquivo 'Pré-requisitos.md', encontrado nesse mesmo repositório.
 
-- Noções básicas de uso de computador
-- Saber utilizar um navegador de internet
-- Familiaridade básica com edição de arquivos e pastas
+---
 
-### Ferramentas necessárias
+## Como utilizar este repositório
 
-Para realizar os exercícios do curso, é necessário possuir pelo menos uma das seguintes opções:
-
-**Opção 1 — Google Colab (recomendado para iniciantes)**
-
-- Conta Google
-- Navegador atualizado (Chrome, Edge, Firefox, etc.)
-
-**Opção 2 — Ambiente local**
-
-- Python 3.8 ou superior instalado
-- Um editor de código ou IDE, como **VS Code**
-
-Para instalar o **Python**, faça o download no site oficial:  
-https://www.python.org/downloads/
-
-Caso utilize VS Code, é recomendado instalar as extensões de Python:
-
+1. Faça o clone do projeto:
 ```bash
-code --install-extension ms-python.python
-code --install-extension ms-python.vscode-pylance
+git clone https://github.com/gustavonogvi/curso-python-ciencia-de-dados.git
 ```
 
-Depois siga o passo 2 da seção '**Como utilizar o repositório**' para instalar as dependências
+2. Navegue até a pasta do módulo desejado.
+3. Abra os arquivos `.ipynb` utilizando o **Jupyter Notebook**, **VS Code** ou **Google Colab**.
 
-## Conteúdos Abordados
+## Integrantes da equipe
 
-O curso é dividido em quatro módulos principais, que acompanham o fluxo comum de trabalho em projetos de dados com Python.
+- Rafael da Silva Albuquerque
+- Wadson Gurgel Satiro
+- Fabricio Oliveira de Sousa
+- Gustavo Vinhas Nogueira
 
-### Módulo 1 — Fundamentos de Python
-
-Introdução à linguagem e à lógica de programação, incluindo sintaxe básica, variáveis, tipos de dados, estruturas condicionais, loops e estruturas de dados simples, além de boas práticas de organização de código.
-
-### Módulo 2 — Manipulação de Dados
-
-Uso da biblioteca **Pandas** para carregar, inspecionar e preparar conjuntos de dados. Inclui leitura de arquivos, limpeza de dados e aplicação de estatísticas descritivas básicas.
-
-### Módulo 3 — Visualização de Dados
-
-Criação de gráficos e representações visuais utilizando **Matplotlib** e **Seaborn**, com foco na escolha adequada de visualizações e na comunicação clara de informações.
-
-### Módulo 4 — Análise Exploratória de Dados (EDA)
-
-Aplicação integrada dos conceitos anteriores para explorar um dataset real, gerar insights e estruturar uma análise baseada em dados.
-
-Verificar a ementa para mais informações.
-
----
-
-## Como utilizar o repositório
-
-1. Faça o download ou clone do projeto:
-
-```bash
-git clone https://github.com/PedroL-cs/Curso_Python
-```
-
-2. Instale as bibliotecas utilizadas no curso com o comando
-
-```
-pip install pandas matplotlib seaborn
-```
-
-3. Abra a pasta do projeto
-
-4. Selecione o módulo desejado
-
-5. Execute os notebooks utilizando uma das opções:
-
-- Jupyter Notebook
-- Google Colab
-- VS Code (necessário instalar extensões para executar os notebooks)
-
-6. Com o apoio dos materiais, ponha em prática o conteúdo resolvendo os exercícios de cada módulo
-
-## Sugestão de sequência de estudo
-
-1. Veja os slides do respectivo módulo para pegar uma ideia do que será tratado
-
-2. Execute os notebooks (arquivos com extensão .ipynb) para ver a sintaxe e comportamento do Python
-
-3. Abra o arquivo de exercícios do módulo e tente resolver os exercícios propostos
-
-4. Faça alterações nos códigos para explorar novos comportamentos
-
-5. Quando estiver seguro do conteúdo, avance para o próximo módulo
-
-Bons estudos!
-
-## Colaboradores do curso
-
-- Ana Luiza Craveiro Veras
-- Emerson Evangelista Mesquita
-- Fillipe Freitas Batista
-- Pedro Luis Costa Sousa
